@@ -6,8 +6,27 @@
     "language": "en",
     // words - list of words to be always considered correct
     "words": [
+
+        // Trackmania terms
         "Trackmania",
-        "Flink"
+        "Flink",
+        "nadeo",
+        "ubi",
+        "ubisoft",
+        "tmio",
+        "trackmaniaio",
+        "leaderboard",
+
+        // go terms/packages
+        "infof",
+        "gonadeo",
+
+
+
+    ],
+    "ignoreRegExpList": [
+        // github package names/usernames
+        "/github.com/[\\w/]+/"
     ],
     // flagWords - list of words to be always considered incorrect
     // This is useful for offensive words and common spelling errors.
